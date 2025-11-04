@@ -1,0 +1,164 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 1fr = divide space equally */
+    /* grid-template-rows:repeat(4,1fr);  */
+    gap: 10px;
+    width: 90vw;
+    height: 90vh;
+    background-color: black;
+    margin-left: 60px;
+    border: 5px solid black;
+}
+
+.item{
+    padding: 10px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item1{
+    background-color:rgb(241, 78, 241);
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+}
+
+.item2{
+    background-color:rgb(241, 78, 241);
+    grid-column-start: 1;
+    grid-column-end: 6;
+
+}
+
+.item3{
+    background-color: lightseagreen;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.item4{
+    background-color: lightseagreen;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.item5{
+    background-color:rgb(233, 129, 129);
+}
+
+.item6{
+    background-color:lightcoral;
+}
+
+.item7{
+    background-color:lightcoral;
+}
+
+.item8{
+    background-color:lightcoral;
+}
+
+.item9{
+    background-color:lightcoral;
+}
+
+.diamond{
+    width: 40px;
+    height: 40px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(45deg);
+    color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+
+}
+.diamond span{
+    transform: rotate(-45deg);
+    font-size: 1.3rem;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(3, 1fr); 
+    gap: 10px;
+    width: 100vw; 
+    height: 100vh;
+}
+
+.item{
+    padding: 10px;
+    font-size: 10px;
+    text-align: center;
+    
+}
+
+
+
+
+.item-1{
+    background-color:green;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    /* width: 100px; */
+}
+
+.item-2{
+    background-color: green;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    
+}
+
+.item-3{
+    background-color:red;
+
+}
+
+.item-4{
+    background-color:orange;
+}
+
+.item-5{
+    background-color:red;
+}
+
+.item-6{
+    background-color:green;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.item-7{
+    background-color:red;
+}
+
+.item-8{
+    background-color:orange;
+}
+
+
+
+
+
+
